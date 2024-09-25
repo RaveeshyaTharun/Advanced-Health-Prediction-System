@@ -1,0 +1,60 @@
+/* HeartDiseaseHistory.css */
+body {
+    background: linear-gradient(135deg, #3a6186, #89253e);
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background: #004d40;
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.navbar-menu {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar-menu li a {
+    padding: 0.5rem 1rem;
+    color: white;
+    text-decoration: none;
+}
+
+.history-table-container {
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table-header {
+    background-color: #ebefef;
+    color: white;
+}
+
+.title {
+    font-weight: bold;
+    color: #f1f1f1;
+    text-transform: uppercase;
+}
+
+.success-text {
+    color: green;
+    font-weight: bold;
+}
+
+.error-text {
+    color: red;
+    font-weight: bold;
+}

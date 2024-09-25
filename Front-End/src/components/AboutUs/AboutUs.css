@@ -1,0 +1,101 @@
+/* AboutUs.css */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background: #1b2430;
+}
+
+nav svg {
+    fill: #17CF97;
+}
+
+#navbar {
+    display: flex;
+    list-style: none;
+}
+
+#navbar li {
+    margin: 0 1rem;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #333;
+}
+
+#navbar a.active {
+    color: #17CF97;
+}
+
+#mobile {
+    display: none;
+    /* Hide mobile menu by default */
+}
+
+.about-us-container {
+    padding: 2rem;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.header p {
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.intro,
+.mission,
+.about-me,
+.values,
+.contact {
+    margin-bottom: 2rem;
+}
+
+.intro h2,
+.mission h2,
+.about-me h2,
+.values h2,
+.contact h2 {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.values ul {
+    list-style: none;
+    padding: 0;
+}
+
+.values li {
+    margin-bottom: 0.5rem;
+}
+
+.contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact li {
+    margin-bottom: 0.5rem;
+}
+
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f8f9fa;
+}
