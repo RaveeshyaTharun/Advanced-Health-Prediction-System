@@ -1,0 +1,85 @@
+/* Navbar styles */
+.navbar-admin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1b2430;
+    color: #fff;
+    font-weight: bold;
+    z-index: 2;
+    position: relative;
+    padding: 16px;
+}
+
+.navbar-admin ul {
+    list-style-type: none;
+    padding: 16px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.navbar-admin ul li {
+    display: inline;
+    margin-inline-end: 32px;
+}
+
+.navbar-admin ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar-admin ul li a:hover {
+    text-decoration: underline;
+}
+
+.text-content, .dashboard-content {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    margin-inline-start: 20px;
+    font-weight: bolder;
+    font-family: monospace;
+    font-size: 20px;
+    margin-block-start: 50px;
+    padding: 20px;
+}
+
+.card-container {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.prediction-card {
+    background: #272b35;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 45%;
+    color: #fff;
+}
+
+.prediction-card h3 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.prediction-card p {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.button-secondary {
+    display: inline-block;
+    border: 2px solid #17CF97;
+    border-radius: 16px;
+    padding: 10px 20px;
+    color: #17CF97;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button-secondary:hover {
+    background-color: #17CF97;
+    color: #fff;
+}
